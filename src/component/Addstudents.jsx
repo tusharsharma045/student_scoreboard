@@ -27,20 +27,20 @@ const AddStudentForm = ({ onAddStudent }) => {
       </div>
       <div className="form-row">
         <div className="field-block">
-          <label htmlFor="studentNameInput">Student Name</label>
+          <label htmlFor="studentName">Student Name</label>
           <input
             type="text"
-            id="studentNameInput"
+            id="studentName"
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Enter student name"
           />
         </div>
         <div className="field-block">
-          <label htmlFor="scoreInput">Score (0-100)</label>
+          <label htmlFor="studentScore">Score (0-100)</label>
           <input
             type="number"
-            id="scoreInput"
+            id="studentScore"
             value={score}
             onChange={(e) => setScore(e.target.value)}
             placeholder="Enter score"
